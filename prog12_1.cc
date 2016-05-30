@@ -2,27 +2,31 @@
 
 using namespace std;
 
-struct Win
+class CWin
 {
+public:
 	char id;
 	int width;
 	int height;
+	
+	int area();
 };
 
-int area(struct Win w)
+int CWin::area()
 {
-	return w.width * w.height;
+	return width * height;
 }
 
 int main(int argc, char const *argv[])
 {
-	struct Win win1;
+	// struct Win win1;
+	CWin win1;
 
 	win1.id = 'A';
 	win1.width = 50; 
 	win1.height = 40;
 
-	cout << "Windows " << win1.id << ", area= " << area(win1) << endl;
+	cout << "Windows " << win1.id << ", area= " << win1.area() << endl;
 
 	return 0;
 }
