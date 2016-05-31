@@ -1,3 +1,22 @@
 Hello, everyone. 
 
 It's my traing for git.
+
+
+We often use the following command line to manage the development of software, so that we can reuse these codes if you want.
+
+1) git init 
+2) git add
+3) git commit -m '[comment]'
+4) git clone [url]
+5) git diff
+6) git rm [document_name]
+7) git log
+8) git remote -v 
+9) git pull 
+10) git push 
+11) git tag
+12) git config --global [new_name] [git_command_line]
+13) git branch 
+14) git checkout
+15) git merge
