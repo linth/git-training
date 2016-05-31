@@ -1,21 +1,7 @@
-#include "iostream"
+#include <iostream>
+#include "CWin.h"
 
 using namespace std;
-
-class CWin
-{
-public:
-	char id;
-	int width;
-	int height;
-	
-	int area();
-};
-
-int CWin::area()
-{
-	return width * height;
-}
 
 int main(int argc, char const *argv[])
 {
