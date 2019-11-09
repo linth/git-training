@@ -1,9 +1,14 @@
+[[MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=102)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-150x25.png?v=102)](https://github.com/ellerbrock/open-source-badge/)  
+
+It's my training for git.
 
 [Case 1]:
     - git pull
     - git add [type_your_file]
     - git commit -m '[type_your_content]'
     - git push
+
 
 [Case 2]:
     - git pull
